@@ -1,0 +1,16 @@
+@media screen and (max-width: 1000px){
+	.map,.about{width: 100%;}
+	#address{display: table-footer-group;}
+	#address h3{width: 100%;}
+	.rel > div{width: 70%;}
+}
+@media screen and (max-width: 600px){
+	.nav a{width: 100%;}
+	.rel > div{width: 90%;}
+	#room > div{width: 100%;margin: 10px 0px;}
+	.first{width: 100%; display: block;padding: 0px;}
+	.first > div,.second > div{width: 100%;margin: 0px;}
+	.kids,.in{margin: 0px;}
+	#contact{display: block;width: 100%;}
+	#contact span > div,.img div{width: 100%;}
+}

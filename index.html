@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotel</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="refresh" content="30">
+	<link rel="stylesheet" type="text/css" href="Hotel.css">
+	<link rel="stylesheet" type="text/css" href="Hotel media.css">
+</head>
+<body>
+	<div class="nav">
+		<a href="#">Logo</a>
+		<a href="#container">Rooms</a>
+		<a href="#Contact">Contact</a>
+		<a href="#Contact">Book Now</a>
+	</div>
+	<div class="rel">
+		<img src="images/hotel.jpg" alt="our hotel">
+		<div>
+			<h1>Klassique Hotel</h1>
+			<form>
+				<div>
+					<label>Check in</label>
+					<input type="text" name="Check in" placeholder="DD&nbsp;MM&nbsp;YYYY">
+				</div>
+				<div>
+					<label>Check Out</label>
+					<input type="text" name="Check out"  placeholder="DD&nbsp;MM&nbsp;YYYY">
+				</div>
+				<div>
+					<label>Adult</label>
+					<input type="number" name="number" value="2">
+				</div>
+				<div>
+					<label>Kids</label>
+					<input type="number" name="number" value="2">
+				</div>
+				<input type="submit" value="Search Availability">
+			</form>
+		</div>
+	</div>
+	<div id="container">
+		<div class="container">
+			<h2>Rooms</h2>
+		<p>Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</p>
+		<form>
+		<div class="first">
+			<div class="in">
+				<label>Check In</label>
+				<input type="text" name="message" placeholder="DD MM YYYY">
+			</div>
+			<div>
+				<label>Check Out</label>
+				<input type="text" name="message" placeholder="DD MM YYYY">
+			</div>
+		</div>
+		<div class="first second">
+			<div>
+				<label>Adult</label>
+				<input type="number" max="6" min="0" value="2" name="number of people">
+			</div>
+			<div class="kids">
+				<label>Kids</label>
+				<input type="number" max="6" min="0" value="1" name="number of people">
+			</div>
+			<div>
+				<label>Search</label>
+				<input type="submit" value="Search" name="submit">
+			</div>
+		</div>
+	</form>
+		<div id="room">
+			<div class="max">
+				<img src="images/room_single.jpg" alt="Single room" title="single room">
+				<span>
+					<h2>Single Room</h2>
+					<h3>From $99</h3>
+					<h4>single</h4>
+					<h4>15m<sup>2</sup></h4>
+					<button type="button">Choose Room</button>
+				</span>
+			</div>
+			<div>
+				<img src="images/room_double.jpg" alt="Single room" title="single room">
+				<span>
+					<h2>Double Room</h2>
+					<h3>From $99</h3>
+					<h4>Queen-size bed</h4>
+					<h4>25m<sup>2</sup></h4>
+					<button type="button">Choose Room</button>
+				</span>
+			</div>
+			<div>
+				<img src="images/room_deluxe.jpg" alt="Single room" title="single room" class="big  ">
+				<span>
+					<h2>Deluxe Room</h2>
+					<h3>From $99</h3>
+					<h4>King-size bed</h4>
+					<h4>40m<sup>2</sup></h4>
+					<button type="button">Choose Room</button>
+				</span>
+			</div>
+		</div>
+		<div id="about">
+			<div class="about">
+				<h2>About</h2>
+				<p>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p><span>We accept:</span>
+			</div>
+			<div class="map">
+				<img src="images/map.jpg" title="map" alt="map">
+			</div>
+		</div>
+		<div id="address">
+			<h3>Address:&nbsp;425,laoye str. lacoste, lagos.</h3>
+			<h3>Phone:&nbsp;+2348127892388</h3>
+			<h3>Email:&nbsp;<a href="mailto:hasbunallahmubarak@gmail.com">Klassiquehotel@gmail.com</a></h3>
+		</div>
+		<div class="red"><span></span>On demand, we can offer playstation, babycall, children care, dog equipment, etc.</div>
+		
+		<div id="contact">
+			<h2>Our Hotels</h2>
+			<p>You can find our hotels anywhere in the world:</p>
+			<span class="contact">
+				<div class="terre">
+					<img src="images/cinqueterre.jpg" alt="Cinque terre">
+					<h3>Cinque terre</h3>
+				</div>
+				<div class="img">
+					<div><img src="images/newyork2.jpg" alt="New York"><h3>New York</h3></div>
+					<div><img src="images/sanfran.jpg" alt="San Franscisco"><h3>San Franscisco</h3></div>
+					<div><img src="images/pisa.jpg" alt="Pisa"><h3>Pisa</h3></div>
+					<div><img src="images/paris.jpg" alt="Paris"><h3>Paris</h3></div>
+				</div>
+			</span>
+		</div>
+	</div>
+	<div class="form">
+		<h1>Get the best offers first!</h1>
+		<p>Join our newsletter.</p>
+		<form>
+			<label>E-mail:</label>
+			<input type="email" placeholder="Your Email Address" name="email">
+			<button class="sub">Subscribe</button>
+		</form>
+	</div>
+	<div id="Contact">
+		<h1>Contact</h1>
+		<p>if you have any questions, do not hesitate to ask them:</p>
+		<p>Lacoste,Lagos</p>
+		<p>Phone:+2348127892388</p>
+		<p>E-mail:&nbsp;<a href="mailto:hasbunallahmubarak@gmail.com">Klassiquehotel@gmail.com</a></p>
+		<form>
+			<input type="text" placeholder="Name" name="name">
+			<input type="email" placeholder="Email" name="email">
+			<input type="text" placeholder="Message" name="message">
+			<button>SEND MESSAGE</button>
+		</form>
+	</div>
+	<div class="footer">Developed by Hmabiola&nbsp;| Template from <a href="https://www.w3schools.com/w3css/tryw3css_templates_hotel.html">W3schools</a><a href="#" class="top"> To The Top</a></div></div>
+</body>
+</html>
